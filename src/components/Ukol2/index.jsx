@@ -19,10 +19,10 @@ export const Ukol2 = () => {
         <strong>{jmeno}</strong>
       </p>
       <div className="button-group">
-        <IconButton label="Jirka" />
-        <IconButton label="Honza" />
-        <IconButton label="Tomáš" />
-        <IconButton label="Šimon" />
+        <IconButton onSelectName={setJmeno} label="Jirka" />
+        <IconButton onSelectName={setJmeno}  label="Honza" />
+        <IconButton onSelectName={setJmeno}  label="Tomáš" />
+        <IconButton onSelectName={setJmeno}  label="Šimon" />
       </div>
     </>
   );
